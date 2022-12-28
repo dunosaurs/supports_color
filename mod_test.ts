@@ -1,11 +1,6 @@
 // Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
 // Copyright Sindre Sorhus and chalk/supports-color contributors. All rights reserved. MIT license.
-import {
-  assert,
-  assertEquals,
-  assertFalse,
-  assertNotEquals,
-} from "./deps.ts";
+import { assert, assertEquals, assertFalse, assertNotEquals } from "./deps.ts";
 import { createSupportsColor } from "./mod.ts";
 
 // Remove all environment variables for testing
